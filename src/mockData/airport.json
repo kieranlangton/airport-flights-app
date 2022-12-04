@@ -1,0 +1,27 @@
+{
+	"icao": "EGLL",
+	"iata": "LHR",
+	"shortName": "Heathrow",
+	"fullName": "London, London Heathrow",
+	"municipalityName": "London",
+	"location": {
+		"lat": 51.4706,
+		"lon": -0.461941
+	},
+	"country": {
+		"code": "GB",
+		"name": "United Kingdom"
+	},
+	"continent": {
+		"code": "EU",
+		"name": "Europe"
+	},
+	"timeZone": "Europe/London",
+	"urls": {
+		"webSite": "http://www.heathrow.com/",
+		"wikipedia": "https://en.wikipedia.org/wiki/London_Heathrow_Airport",
+		"twitter": "http://twitter.com/HeathrowAirport",
+		"googleMaps": "https://www.google.com/maps/@51.470600,-0.461941,14z",
+		"flightRadar": "https://www.flightradar24.com/51.47,-0.46/14"
+	}
+}

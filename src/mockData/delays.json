@@ -1,0 +1,1031 @@
+[
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 10:00+00:00",
+		"toLocal": "2022-12-02 12:00+00:00",
+		"fromUtc": "2022-12-02 10:00Z",
+		"toUtc": "2022-12-02 12:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 78,
+			"numQualifiedTotal": 77,
+			"numCancelled": 0,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 81,
+			"numQualifiedTotal": 81,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 10:15+00:00",
+		"toLocal": "2022-12-02 12:15+00:00",
+		"fromUtc": "2022-12-02 10:15Z",
+		"toUtc": "2022-12-02 12:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 79,
+			"numQualifiedTotal": 78,
+			"numCancelled": 1,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.58
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 80,
+			"numQualifiedTotal": 80,
+			"numCancelled": 1,
+			"medianDelay": "-00:01:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 10:30+00:00",
+		"toLocal": "2022-12-02 12:30+00:00",
+		"fromUtc": "2022-12-02 10:30Z",
+		"toUtc": "2022-12-02 12:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 74,
+			"numCancelled": 1,
+			"medianDelay": "00:31:00",
+			"delayIndex": 1.75
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 75,
+			"numCancelled": 1,
+			"medianDelay": "-00:03:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 10:45+00:00",
+		"toLocal": "2022-12-02 12:45+00:00",
+		"fromUtc": "2022-12-02 10:45Z",
+		"toUtc": "2022-12-02 12:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 74,
+			"numCancelled": 1,
+			"medianDelay": "00:32:00",
+			"delayIndex": 1.81
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 2,
+			"medianDelay": "-00:04:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 11:00+00:00",
+		"toLocal": "2022-12-02 13:00+00:00",
+		"fromUtc": "2022-12-02 11:00Z",
+		"toUtc": "2022-12-02 13:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 76,
+			"numQualifiedTotal": 75,
+			"numCancelled": 1,
+			"medianDelay": "00:33:00",
+			"delayIndex": 1.89
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 71,
+			"numQualifiedTotal": 71,
+			"numCancelled": 2,
+			"medianDelay": "-00:06:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 11:15+00:00",
+		"toLocal": "2022-12-02 13:15+00:00",
+		"fromUtc": "2022-12-02 11:15Z",
+		"toUtc": "2022-12-02 13:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 78,
+			"numQualifiedTotal": 76,
+			"numCancelled": 1,
+			"medianDelay": "00:37:00",
+			"delayIndex": 2.06
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 70,
+			"numQualifiedTotal": 70,
+			"numCancelled": 2,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 11:30+00:00",
+		"toLocal": "2022-12-02 13:30+00:00",
+		"fromUtc": "2022-12-02 11:30Z",
+		"toUtc": "2022-12-02 13:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 73,
+			"numCancelled": 1,
+			"medianDelay": "00:40:00",
+			"delayIndex": 2.28
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 69,
+			"numQualifiedTotal": 69,
+			"numCancelled": 1,
+			"medianDelay": "-00:08:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 11:45+00:00",
+		"toLocal": "2022-12-02 13:45+00:00",
+		"fromUtc": "2022-12-02 11:45Z",
+		"toUtc": "2022-12-02 13:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 73,
+			"numCancelled": 1,
+			"medianDelay": "00:45:00",
+			"delayIndex": 2.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 1,
+			"medianDelay": "-00:11:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 12:00+00:00",
+		"toLocal": "2022-12-02 14:00+00:00",
+		"fromUtc": "2022-12-02 12:00Z",
+		"toUtc": "2022-12-02 14:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 76,
+			"numQualifiedTotal": 75,
+			"numCancelled": 2,
+			"medianDelay": "00:46:00",
+			"delayIndex": 2.61
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 65,
+			"numQualifiedTotal": 65,
+			"numCancelled": 1,
+			"medianDelay": "-00:11:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 12:15+00:00",
+		"toLocal": "2022-12-02 14:15+00:00",
+		"fromUtc": "2022-12-02 12:15Z",
+		"toUtc": "2022-12-02 14:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 82,
+			"numQualifiedTotal": 81,
+			"numCancelled": 1,
+			"medianDelay": "00:46:00",
+			"delayIndex": 2.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 66,
+			"numQualifiedTotal": 66,
+			"numCancelled": 1,
+			"medianDelay": "-00:13:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 12:30+00:00",
+		"toLocal": "2022-12-02 14:30+00:00",
+		"fromUtc": "2022-12-02 12:30Z",
+		"toUtc": "2022-12-02 14:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 84,
+			"numQualifiedTotal": 83,
+			"numCancelled": 1,
+			"medianDelay": "00:45:00",
+			"delayIndex": 2.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 71,
+			"numQualifiedTotal": 71,
+			"numCancelled": 2,
+			"medianDelay": "-00:12:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 12:45+00:00",
+		"toLocal": "2022-12-02 14:45+00:00",
+		"fromUtc": "2022-12-02 12:45Z",
+		"toUtc": "2022-12-02 14:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 89,
+			"numQualifiedTotal": 88,
+			"numCancelled": 2,
+			"medianDelay": "00:43:00",
+			"delayIndex": 2.39
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 1,
+			"medianDelay": "-00:12:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 13:00+00:00",
+		"toLocal": "2022-12-02 15:00+00:00",
+		"fromUtc": "2022-12-02 13:00Z",
+		"toUtc": "2022-12-02 15:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 89,
+			"numQualifiedTotal": 88,
+			"numCancelled": 2,
+			"medianDelay": "00:42:00",
+			"delayIndex": 2.39
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 70,
+			"numQualifiedTotal": 70,
+			"numCancelled": 1,
+			"medianDelay": "-00:12:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 13:15+00:00",
+		"toLocal": "2022-12-02 15:15+00:00",
+		"fromUtc": "2022-12-02 13:15Z",
+		"toUtc": "2022-12-02 15:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 86,
+			"numQualifiedTotal": 86,
+			"numCancelled": 2,
+			"medianDelay": "00:42:00",
+			"delayIndex": 2.33
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 67,
+			"numQualifiedTotal": 67,
+			"numCancelled": 1,
+			"medianDelay": "-00:11:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 13:30+00:00",
+		"toLocal": "2022-12-02 15:30+00:00",
+		"fromUtc": "2022-12-02 13:30Z",
+		"toUtc": "2022-12-02 15:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 84,
+			"numQualifiedTotal": 84,
+			"numCancelled": 2,
+			"medianDelay": "00:41:00",
+			"delayIndex": 2.31
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 65,
+			"numQualifiedTotal": 65,
+			"numCancelled": 1,
+			"medianDelay": "-00:12:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 13:45+00:00",
+		"toLocal": "2022-12-02 15:45+00:00",
+		"fromUtc": "2022-12-02 13:45Z",
+		"toUtc": "2022-12-02 15:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 85,
+			"numQualifiedTotal": 85,
+			"numCancelled": 2,
+			"medianDelay": "00:39:00",
+			"delayIndex": 2.22
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 65,
+			"numQualifiedTotal": 65,
+			"numCancelled": 1,
+			"medianDelay": "-00:11:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 14:00+00:00",
+		"toLocal": "2022-12-02 16:00+00:00",
+		"fromUtc": "2022-12-02 14:00Z",
+		"toUtc": "2022-12-02 16:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 81,
+			"numQualifiedTotal": 81,
+			"numCancelled": 1,
+			"medianDelay": "00:38:00",
+			"delayIndex": 2.17
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 71,
+			"numQualifiedTotal": 71,
+			"numCancelled": 1,
+			"medianDelay": "-00:09:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 14:15+00:00",
+		"toLocal": "2022-12-02 16:15+00:00",
+		"fromUtc": "2022-12-02 14:15Z",
+		"toUtc": "2022-12-02 16:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 82,
+			"numQualifiedTotal": 82,
+			"numCancelled": 1,
+			"medianDelay": "00:35:00",
+			"delayIndex": 2.03
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 70,
+			"numQualifiedTotal": 70,
+			"numCancelled": 1,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 14:30+00:00",
+		"toLocal": "2022-12-02 16:30+00:00",
+		"fromUtc": "2022-12-02 14:30Z",
+		"toUtc": "2022-12-02 16:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 80,
+			"numQualifiedTotal": 80,
+			"numCancelled": 1,
+			"medianDelay": "00:38:00",
+			"delayIndex": 2.19
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 67,
+			"numQualifiedTotal": 67,
+			"numCancelled": 0,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 14:45+00:00",
+		"toLocal": "2022-12-02 16:45+00:00",
+		"fromUtc": "2022-12-02 14:45Z",
+		"toUtc": "2022-12-02 16:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 78,
+			"numQualifiedTotal": 78,
+			"numCancelled": 0,
+			"medianDelay": "00:39:00",
+			"delayIndex": 2.19
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 66,
+			"numQualifiedTotal": 66,
+			"numCancelled": 0,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 15:00+00:00",
+		"toLocal": "2022-12-02 17:00+00:00",
+		"fromUtc": "2022-12-02 15:00Z",
+		"toUtc": "2022-12-02 17:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 79,
+			"numQualifiedTotal": 79,
+			"numCancelled": 0,
+			"medianDelay": "00:37:00",
+			"delayIndex": 2.06
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 67,
+			"numQualifiedTotal": 67,
+			"numCancelled": 0,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 15:15+00:00",
+		"toLocal": "2022-12-02 17:15+00:00",
+		"fromUtc": "2022-12-02 15:15Z",
+		"toUtc": "2022-12-02 17:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 82,
+			"numQualifiedTotal": 82,
+			"numCancelled": 0,
+			"medianDelay": "00:35:00",
+			"delayIndex": 1.94
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 68,
+			"numQualifiedTotal": 68,
+			"numCancelled": 0,
+			"medianDelay": "-00:06:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 15:30+00:00",
+		"toLocal": "2022-12-02 17:30+00:00",
+		"fromUtc": "2022-12-02 15:30Z",
+		"toUtc": "2022-12-02 17:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 89,
+			"numQualifiedTotal": 89,
+			"numCancelled": 0,
+			"medianDelay": "00:34:00",
+			"delayIndex": 1.89
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 68,
+			"numQualifiedTotal": 68,
+			"numCancelled": 0,
+			"medianDelay": "-00:05:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 15:45+00:00",
+		"toLocal": "2022-12-02 17:45+00:00",
+		"fromUtc": "2022-12-02 15:45Z",
+		"toUtc": "2022-12-02 17:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 88,
+			"numQualifiedTotal": 88,
+			"numCancelled": 0,
+			"medianDelay": "00:33:00",
+			"delayIndex": 1.83
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 66,
+			"numQualifiedTotal": 66,
+			"numCancelled": 1,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 16:00+00:00",
+		"toLocal": "2022-12-02 18:00+00:00",
+		"fromUtc": "2022-12-02 16:00Z",
+		"toUtc": "2022-12-02 18:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 83,
+			"numQualifiedTotal": 83,
+			"numCancelled": 0,
+			"medianDelay": "00:34:00",
+			"delayIndex": 1.89
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 61,
+			"numQualifiedTotal": 61,
+			"numCancelled": 1,
+			"medianDelay": "-00:10:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 16:15+00:00",
+		"toLocal": "2022-12-02 18:15+00:00",
+		"fromUtc": "2022-12-02 16:15Z",
+		"toUtc": "2022-12-02 18:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 81,
+			"numQualifiedTotal": 81,
+			"numCancelled": 0,
+			"medianDelay": "00:33:00",
+			"delayIndex": 1.83
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 62,
+			"numQualifiedTotal": 62,
+			"numCancelled": 1,
+			"medianDelay": "-00:10:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 16:30+00:00",
+		"toLocal": "2022-12-02 18:30+00:00",
+		"fromUtc": "2022-12-02 16:30Z",
+		"toUtc": "2022-12-02 18:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 81,
+			"numQualifiedTotal": 81,
+			"numCancelled": 0,
+			"medianDelay": "00:31:00",
+			"delayIndex": 1.72
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 60,
+			"numQualifiedTotal": 60,
+			"numCancelled": 1,
+			"medianDelay": "-00:10:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 16:45+00:00",
+		"toLocal": "2022-12-02 18:45+00:00",
+		"fromUtc": "2022-12-02 16:45Z",
+		"toUtc": "2022-12-02 18:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 77,
+			"numQualifiedTotal": 77,
+			"numCancelled": 0,
+			"medianDelay": "00:29:00",
+			"delayIndex": 1.61
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 63,
+			"numQualifiedTotal": 63,
+			"numCancelled": 1,
+			"medianDelay": "-00:10:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 17:00+00:00",
+		"toLocal": "2022-12-02 19:00+00:00",
+		"fromUtc": "2022-12-02 17:00Z",
+		"toUtc": "2022-12-02 19:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 0,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.58
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 63,
+			"numQualifiedTotal": 63,
+			"numCancelled": 2,
+			"medianDelay": "-00:10:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 17:15+00:00",
+		"toLocal": "2022-12-02 19:15+00:00",
+		"fromUtc": "2022-12-02 17:15Z",
+		"toUtc": "2022-12-02 19:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 73,
+			"numQualifiedTotal": 73,
+			"numCancelled": 0,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 67,
+			"numQualifiedTotal": 67,
+			"numCancelled": 2,
+			"medianDelay": "-00:10:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 17:30+00:00",
+		"toLocal": "2022-12-02 19:30+00:00",
+		"fromUtc": "2022-12-02 17:30Z",
+		"toUtc": "2022-12-02 19:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 0,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 70,
+			"numQualifiedTotal": 70,
+			"numCancelled": 2,
+			"medianDelay": "-00:08:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 17:45+00:00",
+		"toLocal": "2022-12-02 19:45+00:00",
+		"fromUtc": "2022-12-02 17:45Z",
+		"toUtc": "2022-12-02 19:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 69,
+			"numQualifiedTotal": 69,
+			"numCancelled": 0,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.56
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 1,
+			"medianDelay": "-00:07:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 18:00+00:00",
+		"toLocal": "2022-12-02 20:00+00:00",
+		"fromUtc": "2022-12-02 18:00Z",
+		"toUtc": "2022-12-02 20:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 74,
+			"numQualifiedTotal": 74,
+			"numCancelled": 0,
+			"medianDelay": "00:28:00",
+			"delayIndex": 1.58
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 75,
+			"numCancelled": 1,
+			"medianDelay": "-00:04:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 18:15+00:00",
+		"toLocal": "2022-12-02 20:15+00:00",
+		"fromUtc": "2022-12-02 18:15Z",
+		"toUtc": "2022-12-02 20:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 73,
+			"numQualifiedTotal": 73,
+			"numCancelled": 0,
+			"medianDelay": "00:29:00",
+			"delayIndex": 1.61
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 75,
+			"numQualifiedTotal": 75,
+			"numCancelled": 1,
+			"medianDelay": "-00:04:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 18:30+00:00",
+		"toLocal": "2022-12-02 20:30+00:00",
+		"fromUtc": "2022-12-02 18:30Z",
+		"toUtc": "2022-12-02 20:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 76,
+			"numQualifiedTotal": 76,
+			"numCancelled": 0,
+			"medianDelay": "00:31:00",
+			"delayIndex": 1.72
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 79,
+			"numQualifiedTotal": 79,
+			"numCancelled": 1,
+			"medianDelay": "-00:01:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 18:45+00:00",
+		"toLocal": "2022-12-02 20:45+00:00",
+		"fromUtc": "2022-12-02 18:45Z",
+		"toUtc": "2022-12-02 20:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 82,
+			"numQualifiedTotal": 82,
+			"numCancelled": 0,
+			"medianDelay": "00:32:00",
+			"delayIndex": 1.78
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 77,
+			"numQualifiedTotal": 77,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 19:00+00:00",
+		"toLocal": "2022-12-02 21:00+00:00",
+		"fromUtc": "2022-12-02 19:00Z",
+		"toUtc": "2022-12-02 21:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 87,
+			"numQualifiedTotal": 87,
+			"numCancelled": 0,
+			"medianDelay": "00:30:00",
+			"delayIndex": 1.67
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 76,
+			"numQualifiedTotal": 76,
+			"numCancelled": 0,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 19:15+00:00",
+		"toLocal": "2022-12-02 21:15+00:00",
+		"fromUtc": "2022-12-02 19:15Z",
+		"toUtc": "2022-12-02 21:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 86,
+			"numQualifiedTotal": 86,
+			"numCancelled": 1,
+			"medianDelay": "00:30:00",
+			"delayIndex": 1.72
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 73,
+			"numQualifiedTotal": 73,
+			"numCancelled": 0,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 19:30+00:00",
+		"toLocal": "2022-12-02 21:30+00:00",
+		"fromUtc": "2022-12-02 19:30Z",
+		"toUtc": "2022-12-02 21:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 81,
+			"numQualifiedTotal": 81,
+			"numCancelled": 1,
+			"medianDelay": "00:30:00",
+			"delayIndex": 1.67
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 70,
+			"numQualifiedTotal": 70,
+			"numCancelled": 0,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 19:45+00:00",
+		"toLocal": "2022-12-02 21:45+00:00",
+		"fromUtc": "2022-12-02 19:45Z",
+		"toUtc": "2022-12-02 21:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 82,
+			"numQualifiedTotal": 82,
+			"numCancelled": 1,
+			"medianDelay": "00:29:00",
+			"delayIndex": 1.64
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 67,
+			"numQualifiedTotal": 67,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 20:00+00:00",
+		"toLocal": "2022-12-02 22:00+00:00",
+		"fromUtc": "2022-12-02 20:00Z",
+		"toUtc": "2022-12-02 22:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 72,
+			"numQualifiedTotal": 72,
+			"numCancelled": 1,
+			"medianDelay": "00:29:00",
+			"delayIndex": 1.64
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 67,
+			"numQualifiedTotal": 67,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 20:15+00:00",
+		"toLocal": "2022-12-02 22:15+00:00",
+		"fromUtc": "2022-12-02 20:15Z",
+		"toUtc": "2022-12-02 22:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 65,
+			"numQualifiedTotal": 65,
+			"numCancelled": 1,
+			"medianDelay": "00:29:00",
+			"delayIndex": 1.67
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 61,
+			"numQualifiedTotal": 61,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 20:30+00:00",
+		"toLocal": "2022-12-02 22:30+00:00",
+		"fromUtc": "2022-12-02 20:30Z",
+		"toUtc": "2022-12-02 22:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 57,
+			"numQualifiedTotal": 57,
+			"numCancelled": 1,
+			"medianDelay": "00:30:00",
+			"delayIndex": 1.72
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 55,
+			"numQualifiedTotal": 55,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 20:45+00:00",
+		"toLocal": "2022-12-02 22:45+00:00",
+		"fromUtc": "2022-12-02 20:45Z",
+		"toUtc": "2022-12-02 22:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 51,
+			"numQualifiedTotal": 51,
+			"numCancelled": 1,
+			"medianDelay": "00:31:00",
+			"delayIndex": 1.78
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 47,
+			"numQualifiedTotal": 47,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 21:00+00:00",
+		"toLocal": "2022-12-02 23:00+00:00",
+		"fromUtc": "2022-12-02 21:00Z",
+		"toUtc": "2022-12-02 23:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 46,
+			"numQualifiedTotal": 46,
+			"numCancelled": 1,
+			"medianDelay": "00:41:00",
+			"delayIndex": 2.28
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 41,
+			"numQualifiedTotal": 41,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 21:15+00:00",
+		"toLocal": "2022-12-02 23:15+00:00",
+		"fromUtc": "2022-12-02 21:15Z",
+		"toUtc": "2022-12-02 23:15Z",
+		"departuresDelayInformation": {
+			"numTotal": 42,
+			"numQualifiedTotal": 42,
+			"numCancelled": 0,
+			"medianDelay": "00:42:00",
+			"delayIndex": 2.36
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 34,
+			"numQualifiedTotal": 34,
+			"numCancelled": 1,
+			"medianDelay": "00:00:00",
+			"delayIndex": 0.0
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 21:30+00:00",
+		"toLocal": "2022-12-02 23:30+00:00",
+		"fromUtc": "2022-12-02 21:30Z",
+		"toUtc": "2022-12-02 23:30Z",
+		"departuresDelayInformation": {
+			"numTotal": 43,
+			"numQualifiedTotal": 43,
+			"numCancelled": 0,
+			"medianDelay": "00:44:00",
+			"delayIndex": 2.44
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 27,
+			"numQualifiedTotal": 27,
+			"numCancelled": 1,
+			"medianDelay": "00:02:00",
+			"delayIndex": 0.17
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 21:45+00:00",
+		"toLocal": "2022-12-02 23:45+00:00",
+		"fromUtc": "2022-12-02 21:45Z",
+		"toUtc": "2022-12-02 23:45Z",
+		"departuresDelayInformation": {
+			"numTotal": 34,
+			"numQualifiedTotal": 34,
+			"numCancelled": 0,
+			"medianDelay": "00:45:00",
+			"delayIndex": 2.5
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 20,
+			"numQualifiedTotal": 20,
+			"numCancelled": 0,
+			"medianDelay": "00:04:00",
+			"delayIndex": 0.22
+		}
+	},
+	{
+		"airportIcao": "EGLL",
+		"fromLocal": "2022-12-02 22:00+00:00",
+		"toLocal": "2022-12-03 00:00+00:00",
+		"fromUtc": "2022-12-02 22:00Z",
+		"toUtc": "2022-12-03 00:00Z",
+		"departuresDelayInformation": {
+			"numTotal": 34,
+			"numQualifiedTotal": 34,
+			"numCancelled": 0,
+			"medianDelay": "00:45:00",
+			"delayIndex": 2.5
+		},
+		"arrivalsDelayInformation": {
+			"numTotal": 20,
+			"numQualifiedTotal": 20,
+			"numCancelled": 0,
+			"medianDelay": "00:04:00",
+			"delayIndex": 0.22
+		}
+	}
+]
