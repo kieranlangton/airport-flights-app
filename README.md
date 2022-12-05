@@ -18,13 +18,12 @@ Prerequisites: Docker, an API key
 
 ```bash
 # build the Docker image
-$ docker build -t airport-flights-app .
+$ docker build \
+    --build-arg NEXT_PUBLIC_AERODATABOX_API_HOST=aerodatabox.p.rapidapi.com \
+    --build-arg NEXT_PUBLIC_AERODATABOX_API_KEY=<API KEY> \
+    -t airport-flights-app .
 # run the container
-$ docker run \
-    -p 3000:3000 \
-    --env NEXT_PUBLIC_AERODATABOX_API_HOST=aerodatabox.p.rapidapi.com \
-    --env NEXT_PUBLIC_AERODATABOX_API_KEY=<API KEY> \
-    airport-flights-app
+$ docker run -p 3000:3000 airport-flights-app
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
