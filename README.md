@@ -51,6 +51,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Things for the future
 
+- Let the user choose the times for viewing arrivals/departures
 - More unit tests
 - End-to-end tests with Cypress
 - Add a dockerfile for development
