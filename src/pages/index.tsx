@@ -5,7 +5,7 @@ import AircraftIcon from "../components/AircraftIcon";
 import AirportSearchField from "../components/AirportSearchField";
 import AirportSearchResult from "../components/AirportSearchResult";
 import LoadingSpinner from "../components/LoadingSpinner";
-import { getAirportSearchResults } from "../services/api-mock";
+import { getAirportSearchResults } from "../services/api";
 
 export default function AirportSearchPage() {
   const [searchTerm, setSearchTerm] = useState("");

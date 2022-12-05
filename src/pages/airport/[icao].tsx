@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useQuery } from "react-query";
 import AirportInformation from "../../components/AirportInformation";
 import ArrivalDepartureToggle, {
@@ -10,8 +10,7 @@ import BackToSearchButton from "../../components/BackToSearchButton";
 import DelaysGraph from "../../components/DelaysGraph";
 import FlightCard from "../../components/FlightCard";
 import LoadingSpinner from "../../components/LoadingSpinner";
-import { AirportApiRequestError } from "../../services/api";
-import { getAirportData } from "../../services/api-mock";
+import { AirportApiRequestError, getAirportData } from "../../services/api";
 
 export default function AirportDetailPage() {
   const [flightListToShow, setFlightListToShow] = useState(
@@ -32,6 +31,12 @@ export default function AirportDetailPage() {
     flightListToShow === FlightListToShow.ARRIVALS
       ? data?.arrivals
       : data?.departures;
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.scrollTo(0, 0);
+    }
+  }, [flightListToShow]);
 
   if (error) {
     return (
