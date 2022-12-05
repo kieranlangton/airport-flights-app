@@ -7,21 +7,22 @@ export type Flight = {
     };
     scheduledTimeLocal: string;
     actualTimeLocal: string;
+    actualTimeUtc: string;
   };
   number: string;
   status: string;
   aircraft: {
-    model: string;
+    model?: string;
   };
   airline: {
-    name: string;
+    name?: string;
   };
 };
 
 export type Airport = {
   icao: string;
   iata: string;
-  shortName: string;
+  shortName?: string;
   fullName: string;
   municipalityName: string;
   location: {
@@ -30,11 +31,11 @@ export type Airport = {
   };
   country: {
     code: string;
-    name: string;
+    name?: string;
   };
   continent: {
     code: string;
-    name: string;
+    name?: string;
   };
   timeZone: string;
   urls: {
@@ -60,13 +61,13 @@ export type AirportSearchResult = {
 };
 
 export type FlightDelay = {
-    airportIcao: string;
-    fromUtc: string;
-    toUtc: string;
-    departuresDelayInformation: {
-      delayIndex: number;
-    };
-    arrivalsDelayInformation: {
-      delayIndex: number;
-    };
+  airportIcao: string;
+  fromUtc: string;
+  toUtc: string;
+  departuresDelayInformation: {
+    delayIndex?: number;
   };
+  arrivalsDelayInformation: {
+    delayIndex?: number;
+  };
+};

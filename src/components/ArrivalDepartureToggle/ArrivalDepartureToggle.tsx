@@ -32,7 +32,7 @@ const ArrivalDepartureToggle = ({
             onClick={() => onChange(FlightListToShow.DEPARTURES)}
             className={`block px-3 py-2 rounded-md ${
               flightListToShow === FlightListToShow.DEPARTURES
-                ? "bg-sky-500 text-white"
+                ? "bg-green-500 text-white"
                 : "bg-slate-50"
             }`}
           >

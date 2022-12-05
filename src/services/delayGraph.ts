@@ -47,14 +47,14 @@ export const getDelayGraph = (
   const departureLinePath = delayLineFn(
     gaps.map((datum) => ({
       fromUtc: datum.fromUtc,
-      delayIndex: datum.departuresDelayInformation.delayIndex,
+      delayIndex: datum.departuresDelayInformation.delayIndex || 0,
     }))
   );
 
   const arrivalLinePath = delayLineFn(
     gaps.map((datum) => ({
       fromUtc: datum.fromUtc,
-      delayIndex: datum.arrivalsDelayInformation.delayIndex,
+      delayIndex: datum.arrivalsDelayInformation.delayIndex || 0,
     }))
   );
 

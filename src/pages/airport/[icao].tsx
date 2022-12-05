@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { useQuery } from "react-query";
@@ -7,9 +6,12 @@ import AirportInformation from "../../components/AirportInformation";
 import ArrivalDepartureToggle, {
   FlightListToShow,
 } from "../../components/ArrivalDepartureToggle";
+import BackToSearchButton from "../../components/BackToSearchButton";
 import DelaysGraph from "../../components/DelaysGraph";
 import FlightCard from "../../components/FlightCard";
-import { getAirportData } from "../../services/api";
+import LoadingSpinner from "../../components/LoadingSpinner";
+import { AirportApiRequestError } from "../../services/api";
+import { getAirportData } from "../../services/api-mock";
 
 export default function AirportDetailPage() {
   const [flightListToShow, setFlightListToShow] = useState(
@@ -31,6 +33,23 @@ export default function AirportDetailPage() {
       ? data?.arrivals
       : data?.departures;
 
+  if (error) {
+    return (
+      <div className="container mx-auto p-8">
+        <h2 className="mt-2 text-lg text-slate-700 dark:text-slate-400 sm:mt-0">
+          {error instanceof AirportApiRequestError && error.status === 404 ? (
+            <>The airport {icaoCode} could not be found.</>
+          ) : (
+            <>An unexpected error occurred.</>
+          )}
+        </h2>
+        <div className="mt-4">
+          <BackToSearchButton />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto">
       <Head>
@@ -38,20 +57,22 @@ export default function AirportDetailPage() {
       </Head>
 
       <header className="p-8 top-0 z-50 bg-white sm:sticky">
-        <Link
-          href="/"
-          className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-pink-50 text-pink-600 hover:bg-pink-100 hover:text-pink-700 focus:ring-pink-600 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500 mb-4"
-        >
-          Back to search
-        </Link>
+        <BackToSearchButton />
         <div className="flex sm:space-x-3 flex-col sm:flex-row">
-          {data?.airport && <AirportInformation airport={data.airport} />}
-          <DelaysGraph />
+          <div className="grow">
+            {data?.airport && <AirportInformation airport={data.airport} />}
+          </div>
+          {data?.delays && <DelaysGraph delays={data.delays} />}
         </div>
         <ArrivalDepartureToggle
           flightListToShow={flightListToShow}
           onChange={(newFlightList) => setFlightListToShow(newFlightList)}
         />
+        {isLoading && (
+          <div className="text-center">
+            <LoadingSpinner />
+          </div>
+        )}
       </header>
 
       <main>
