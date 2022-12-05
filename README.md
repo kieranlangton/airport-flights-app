@@ -1,34 +1,58 @@
+# Airport Arrivals and Departures
+
+This is a small app that lets you search for an airport and then view its upcoming arrival and departure flights, along with a graph of delays for the previous 12 hours. Built using the [AeroDataBox API](https://doc.aerodatabox.com/) through [RapidAPI](https://rapidapi.com/aedbx-aedbx/api/aerodatabox/).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+### API Key
+
+Create a [RapidAPI](https://rapidapi.com/hub) account and subscribe to the [AeroDataBox API free "Basic" plan](https://rapidapi.com/aedbx-aedbx/api/aerodatabox/pricing). Once subscribed, obtain the API key from your newly create App by going to [My Apps](https://rapidapi.com/developer/apps) -> default-application_0123456 -> Security, and copying the API key.
+
+**Note: The Basic plan has low limits, ~400 calls/month**
+
+### Production
+
+Prerequisites: Docker, an API key
 
 ```bash
-npm run dev
-# or
-yarn dev
+# build the Docker image
+$ docker build -t airport-flights-app .
+# run the container
+$ docker run \
+    -p 3000:3000 \
+    --env NEXT_PUBLIC_AERODATABOX_API_HOST=aerodatabox.p.rapidapi.com \
+    --env NEXT_PUBLIC_AERODATABOX_API_KEY=<API KEY> \
+    airport-flights-app
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Development
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Prerequisites: Node.js v16, Yarn v1, an API key
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Create a `.env.local` file with the following contents:
 
-## Learn More
+```
+NEXT_PUBLIC_AERODATABOX_API_HOST=aerodatabox.p.rapidapi.com
+NEXT_PUBLIC_AERODATABOX_API_KEY=<API KEY>
+```
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# install dependencies
+$ yarn
+# run the development server
+$ yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Things for the future
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- More unit tests
+- End-to-end tests with Cypress
+- Add a dockerfile for development
+- [Prettier](https://prettier.io/) setup
