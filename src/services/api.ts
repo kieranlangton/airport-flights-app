@@ -89,6 +89,7 @@ export const getAirportSearchResults = async (searchTerm: string) => {
     {
       q: searchTerm.toLowerCase(),
       limit: 10,
+      withFlightInfoOnly: true,
     }
   );
 

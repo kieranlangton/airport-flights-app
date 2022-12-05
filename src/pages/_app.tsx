@@ -7,6 +7,7 @@ const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       // disable because of low free API limits
+      retry: false,
       refetchOnWindowFocus: false,
     },
   },

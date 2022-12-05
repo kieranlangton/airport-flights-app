@@ -1,16 +1,18 @@
 import Head from "next/head";
-import { useState } from "react";
 import { useQuery } from "react-query";
 import AircraftIcon from "../components/AircraftIcon";
 import AirportSearchField from "../components/AirportSearchField";
 import AirportSearchResult from "../components/AirportSearchResult";
 import LoadingSpinner from "../components/LoadingSpinner";
+import { useSearchTermStore } from "../services/searchStore";
 import { getAirportSearchResults } from "../services/api";
 
 export default function AirportSearchPage() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const { isLoading, error, data } = useQuery(["search", searchTerm], () =>
-    getAirportSearchResults(searchTerm)
+  const { searchTerm, setSearchTerm } = useSearchTermStore();
+
+  const { isLoading, error, data } = useQuery(
+    ["search", searchTerm.toLowerCase()],
+    () => getAirportSearchResults(searchTerm)
   );
 
   const noResults =
@@ -26,7 +28,10 @@ export default function AirportSearchPage() {
         <AircraftIcon />
         <div className="flex justify-center">
           <div className="sm:w-96">
-            <AirportSearchField onSubmit={setSearchTerm} />
+            <AirportSearchField
+              initialSearchTerm={searchTerm}
+              onSubmit={setSearchTerm}
+            />
             {isLoading && (
               <div className="text-center my-8">
                 <LoadingSpinner />

@@ -1,11 +1,15 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 
 interface AirportSearchFieldProps {
+  initialSearchTerm?: string;
   onSubmit: (searchTerm: string) => void;
 }
 
-const AirportSearchField = ({ onSubmit }: AirportSearchFieldProps) => {
-  const [searchValue, setSearchValue] = useState("");
+const AirportSearchField = ({
+  initialSearchTerm,
+  onSubmit,
+}: AirportSearchFieldProps) => {
+  const [searchValue, setSearchValue] = useState(initialSearchTerm || "");
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchValue(e.target.value);
