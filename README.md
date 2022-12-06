@@ -48,6 +48,13 @@ $ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Tests
+
+To run the test suite:
+
+```bash
+$ yarn test
+```
 
 ## Things for the future
 
